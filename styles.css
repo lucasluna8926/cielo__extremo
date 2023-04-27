@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'Selima';
-  src: url('/fonts/selima/Selima\ .ttf');
+  src: url('media/fonts/selima/Selima\ .ttf');
 
 }
 
 @font-face {
   font-family: 'norwester';
-  src: url('/fonts/norwester/norwester.otf');
+  src: url('media/fonts/norwester/norwester.otf');
 
 }
 
 @font-face {
   font-family: 'virtual';
-  src: url('/fonts/virtual/Virtual-Regular.ttf');
+  src: url('media/fonts/virtual/Virtual-Regular.ttf');
 
 }
 
