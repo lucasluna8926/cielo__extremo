@@ -544,4 +544,64 @@ margin: 0 25% 0% 25%;
 .indicadores{
   display: none;
 }
+
+
+
+.font__carousel1 {
+ 
+top: 1% ;
+left: -35%;
+  
+}
+
+
+.font__carousel2{
+ 
+   top:-23%;
+   left: -39%;
+   
+}
+
+
+.font__carousel3{
+
+  top:-37%;
+  left: -42.2%;
+
+
+  
+
+
+}
+
+
+
+
+
+
+
+.font__carousel2-1 {
+ 
+  top: 81.5%;
+  left: -36%;
+  
+  
+ 
+}
+
+.font__carousel2-2 {
+  font-size: 0.6rem;
+  top: 75%;
+  left: -20%;
+ 
+ 
+}
+.font__carousel2-3 { 
+  font-size: 1.4rem;
+    left: 13%;
+    top: 65.5%;
+
+ 
+}
+
 }
