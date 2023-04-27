@@ -34,8 +34,8 @@ title{
   font-family: 'norwester';
   font-size: 4vw;
 position: relative;
-top: 1% ;
-left: -35%;
+top: -1vw ;
+left: -12vw;
   
 }
 
@@ -53,8 +53,8 @@ left: -35%;
     0px 0px 5px rgba(0, 0, 0, 0.5);
     font-size: 7vw;
    position: relative;
-   top:-13%;
-   left: -39%;
+   top:-6vw;
+   left: -13.5vw;
    
 }
 
@@ -63,8 +63,8 @@ left: -35%;
   font-family: 'norwester';
   font-size: 1.5vw;
   position: relative;
-  top:-20%;
-  left: -42.2%;
+  top:-8.4vw;
+  left:-14.5vw;
 
 
   
@@ -75,8 +75,8 @@ left: -35%;
 
 .titulo__banner1{
   
-top: 30%;
-right: 50%!important;
+top: 17vw;
+right: 50vw!important;
 
 }
 
@@ -543,65 +543,4 @@ margin: 0 25% 0% 25%;
 
 .indicadores{
   display: none;
-}
-
-
-
-.font__carousel1 {
- 
-top: 1% ;
-left: -35%;
-  
-}
-
-
-.font__carousel2{
- 
-   top:-23%;
-   left: -39%;
-   
-}
-
-
-.font__carousel3{
-
-  top:-37%;
-  left: -42.2%;
-
-
-  
-
-
-}
-
-
-
-
-
-
-
-.font__carousel2-1 {
- 
-  top: 81.5%;
-  left: -36%;
-  
-  
- 
-}
-
-.font__carousel2-2 {
-  font-size: 0.6rem;
-  top: 75%;
-  left: -20%;
- 
- 
-}
-.font__carousel2-3 { 
-  font-size: 1.4rem;
-    left: 13%;
-    top: 65.5%;
-
- 
-}
-
-}
+}}
