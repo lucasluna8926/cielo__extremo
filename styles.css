@@ -32,14 +32,14 @@ body {
 .font__carousel1 {
   font-family: 'norwester';
   font-size: 4vw;
-position: relative;
-top: -1vw ;
-left: -12vw;
-  
+  position: relative;
+  top: -1vw;
+  left: -12vw;
+
 }
 
 
-.font__carousel2{
+.font__carousel2 {
   font-family: 'virtual';
   color: #FFC300;
   text-shadow:
@@ -50,43 +50,41 @@ left: -12vw;
     0px 0px 5px rgba(0, 0, 0, 0.5),
     /* sombra interior */
     0px 0px 5px rgba(0, 0, 0, 0.5);
-    font-size: 7vw;
-   position: relative;
-   top:-6vw;
-   left: -13.5vw;
-   
+  font-size: 7vw;
+  position: relative;
+  top: -6vw;
+  left: -13.5vw;
+
 }
 
 
-.font__carousel3{
+.font__carousel3 {
   font-family: 'norwester';
   font-size: 1.5vw;
   position: relative;
-  top:-8.4vw;
-  left:-14.5vw;
+  top: -8.4vw;
+  left: -14.5vw;
 
 
-  
+
 
 
 }
 
 
-.titulo__banner1{
-  
-top: 17vw;
-right: 50vw!important;
+.titulo__banner1 {
+
+  top: 17vw;
+  right: 50vw !important;
 
 }
 
 
 
-.titulo__banner2
-{
-  left: 70%!important;
-  top:0%
-
-} 
+.titulo__banner2 {
+  left: 70% !important;
+  top: 0%
+}
 
 
 
@@ -100,9 +98,9 @@ right: 50vw!important;
   position: relative;
   top: 55%;
   left: -5%;
-  
-  
- 
+
+
+
 }
 
 .font__carousel2-2 {
@@ -111,9 +109,10 @@ right: 50vw!important;
   position: relative;
   top: 52%;
   left: 14.5%;
- 
- 
+
+
 }
+
 .font__carousel2-3 {
   font-family: 'virtual';
   font-size: 4vw;
@@ -126,11 +125,11 @@ right: 50vw!important;
     0px 0px 5px rgba(0, 0, 0, 0.5),
     /* sombra interior */
     0px 0px 5px rgba(0, 0, 0, 0.5);
-    position: relative;
-    left: 23%;
-    top: 46.5%;
+  position: relative;
+  left: 23%;
+  top: 46.5%;
 
- 
+
 }
 
 
@@ -166,7 +165,7 @@ header.down {
 
 
 header.down a {
-  color: antiquewhite !important;
+  color: white !important;
   transition: all 0.5s ease;
 
 
@@ -176,45 +175,46 @@ header.down a {
 header a {
   font-family: 'Selima' !important;
   text-decoration: none;
-  color: black!important;
-  
+  color: black !important;
+
 
 }
 
 
-.atajos{
-  transition: transform 0.2s ease-in-out!important;
+.atajos {
+  transition: transform 0.2s ease-in-out !important;
 
 
 
 }
 
 .atajos:hover {
-  transform: scale(1.07)!important;
+  transform: scale(1.07) !important;
 }
 
 
-.a__atajos:hover{
-  border-bottom: black solid 2px ;
+.a__atajos:hover {
+  border-bottom: black solid 2px;
 
 }
 
-.down .a__atajos:hover{
-  border-bottom: white solid 2px!important;
+.down .a__atajos:hover {
+  border-bottom: white solid 2px !important;
 }
 
 
 
 .logo {
-  width: 10.5% ;
+  width: 10.5%;
 }
 
 
 /*text btn gallery*/
 
 .nav-tabs .nav-link {
-text-decoration: none;
-color: black;}
+  text-decoration: none;
+  color: black;
+}
 
 button.nav-link:hover {
   transition: all 0.5s ease;
@@ -222,20 +222,21 @@ button.nav-link:hover {
 }
 
 
-.galeria .active{
-  color: #FFC300!important;
+.galeria .active {
+  color: #FFC300 !important;
+  border-bottom: none !important;
 }
 
-.galeria{
+.galeria {
   font-family: 'norwester';
-  margin-bottom: 1%!important;
+  margin-bottom: 1% !important;
 }
 
 /*Imagenes galería*/
 .d-flex>figure>a>img {
   padding: 4px;
   width: 450px !important;
-  border-radius: 20px !important;
+  border-radius: 20px
 }
 
 
@@ -330,25 +331,6 @@ button.nav-link:hover {
 
 
 
-/*backgroundcolorHeader-responsive*/
-
-@media screen and (max-width: 767px) {
-  header {
-    background: #1483D5;
-    position: relative !important;
-  }
-
-  ;
-}
-
-/*positionHeader-responsive*/
-@media screen and (max-width: 767px) {
-  header.down {
-    position: fixed!important ;
-  }
-}
-
-
 
 
 
@@ -385,6 +367,45 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*backgroundcolorHeader-responsive*/
+
+@media screen and (max-width: 767px) {
+  header {
+    position: relative !important;
+    background-color: #000;
+    
+  }
+  header a{
+    color: white!important;
+  }
+
+
+
+
+}
+
+/*positionHeader-responsive*/
+@media screen and (max-width: 767px) {
+  header.down {
+
+    position: fixed !important;
+  
+
+  }
+}
+
+
+
 /* Reglas para pantallas medianas */
 @media only screen and (min-width: 481px) and (max-width: 1645px) {
   .logo__nosotros {
@@ -392,9 +413,10 @@ body {
 
 
   }
-  .quienes__somos{
-width:100%;
-margin: 0 25% 0% 25%;
+
+  .quienes__somos {
+    width: 100%;
+    margin: 0 25% 0% 25%;
   }
 }
 
@@ -407,25 +429,28 @@ margin: 0 25% 0% 25%;
     margin: 5%;
     font-size: 0.8rem;
   }
+
   .logo__nosotros {
     display: none;
   }
 
 
 
-  .logo{
-    width:15%!important
-    ;margin-right: 3%;
+  .logo {
+    width: 15% !important;
+    margin-right: 3%;
   }
-.navbar-nav{
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
 
-.indicadores{
-  display: none;
-}}
+  .navbar-nav {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .indicadores {
+    display: none;
+  }
+}
 
 
 
