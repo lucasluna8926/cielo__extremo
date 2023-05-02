@@ -23,9 +23,8 @@ body {
   max-width: 100%;
 }
 
-title{
-  font-family: 'norwester'!important;
-}
+
+
 
 
 
@@ -152,9 +151,10 @@ header.down {
 
 #title {
 
-  font-size: 2.5rem;
-  font-family: 'Selima' !important;
+  font-family: 'norwester' !important;
 }
+
+
 
 .banner__1 {
   font-family: 'Selima';
@@ -168,14 +168,12 @@ header.down {
 header.down a {
   color: antiquewhite !important;
   transition: all 0.5s ease;
-  font-size: 1.7rem !important;
 
 
 }
 
 
 header a {
-  font-size: 1.5rem !important;
   font-family: 'Selima' !important;
   text-decoration: none;
   color: black!important;
@@ -266,9 +264,6 @@ button.nav-link:hover {
 
 }
 
-.title__nosotros {
-  font-family: 'selima';
-}
 
 .logo__nosotros {
   width: 50%;
@@ -305,6 +300,136 @@ button.nav-link:hover {
 
 
 }
+
+
+
+
+
+
+.nuestros__pilotos {
+  background-image: url(media/background/nuestros__piolotos.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+/*logo wp fijo*/
+.wp {
+  bottom: 2rem;
+  position: fixed;
+  z-index: 3;
+  right: 2rem;
+  filter: drop-shadow(0.8rem 0.8rem 0.8rem #0008);
+}
+
+.wp:hover {
+  scale: 1.1;
+  transition: all 0.2s ease;
+}
+
+
+
+/*backgroundcolorHeader-responsive*/
+
+@media screen and (max-width: 767px) {
+  header {
+    background: #1483D5;
+    position: relative !important;
+  }
+
+  ;
+}
+
+/*positionHeader-responsive*/
+@media screen and (max-width: 767px) {
+  header.down {
+    position: fixed!important ;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img__carousel {
+  animation: zoom-in 5s infinite;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.videoss {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+
+/* Reglas para pantallas medianas */
+@media only screen and (min-width: 481px) and (max-width: 1645px) {
+  .logo__nosotros {
+    display: none;
+
+
+  }
+  .quienes__somos{
+width:100%;
+margin: 0 25% 0% 25%;
+  }
+}
+
+
+/* Reglas para pantallas chicas */
+@media only screen and (max-width: 1000px) {
+  .quienes__somos {
+
+    width: 100%;
+    margin: 5%;
+    font-size: 0.8rem;
+  }
+  .logo__nosotros {
+    display: none;
+  }
+
+
+
+  .logo{
+    width:15%!important
+    ;margin-right: 3%;
+  }
+.navbar-nav{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.indicadores{
+  display: none;
+}}
+
+
+
+
 
 @keyframes mover-condor {
   0% {
@@ -360,119 +485,6 @@ button.nav-link:hover {
 
 
 
-
-.nuestros__pilotos {
-  background-image: url(media/background/nuestros__piolotos.png);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-
-/*logo wp fijo*/
-.wp {
-  bottom: 2rem;
-  position: fixed;
-  z-index: 3;
-  right: 2rem;
-  filter: drop-shadow(0.8rem 0.8rem 0.8rem #0008);
-}
-
-.wp:hover {
-  scale: 1.1;
-  transition: all 0.2s ease;
-}
-
-/*positionElementsul-responsive*/
-ul.navbar-nav {
-  margin-left: auto;
-}
-
-/*backgroundcolorHeader-responsive*/
-
-@media screen and (max-width: 767px) {
-  header {
-    position: relative !important;
-    background: #1483D5;
-    ;
-  }
-
-  ;
-}
-
-/*positionHeader-responsive*/
-@media screen and (max-width: 767px) {
-  header.down {
-    position: fixed !important;
-  }
-}
-
-
-
-
-
-.pilot {
-  width: 25em;
-  height: 25em;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-
-
-
-
-
-@keyframes efecto__titulo__header {
-  0% {
-    opacity: 1;
-
-  }
-
-
-  50% {
-    opacity: 0;
-
-  }
-
-  75% {
-    opacity: 1;
-
-  }
-
-  100% {
-    opacity: 0;
-
-  }
-}
-
-header.down .titulo__header {
-  animation: efecto__titulo__header 0.4s linear 2;
-}
-
-
-#title:hover {
-  animation: efecto__titulo__header 0.4s linear 2;
-}
-
-
-
-
-header.down .a__atajos {
-  animation: flicker 0.4s linear 2;
-}
-
-
-
-
-
-
-
-
-.img__carousel {
-  animation: zoom-in 5s infinite;
-}
-
 @keyframes zoom-in {
   from {
     transform: scale(1);
@@ -482,65 +494,3 @@ header.down .a__atajos {
     transform: scale(1.02);
   }
 }
-
-
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.videoss {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-
-
-/* Reglas para pantallas medianas */
-@media only screen and (min-width: 481px) and (max-width: 1645px) {
-  .logo__nosotros {
-    display: none;
-
-
-  }
-  .quienes__somos{
-width:100%;
-margin: 0 25% 0% 25%;
-  }
-}
-
-
-/* Reglas para pantallas chicas */
-@media only screen and (max-width: 1000px) {
-  .quienes__somos {
-
-    width: 100%;
-    margin: 5%;
-    font-size: 0.8rem;
-  }
-  .logo__nosotros {
-    display: none;
-  }
-
-.navbar__logo__titulo{
-  display: flex;
-
-  }
-
-  .logo{
-    width:15%!important
-    ;margin-right: 3%;
-  }
-.navbar-nav{
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-
-.indicadores{
-  display: none;
-}}
