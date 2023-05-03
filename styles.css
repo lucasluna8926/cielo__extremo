@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Selima';
-  src: url('media/fonts/selima/Selima\ .ttf');
-
-}
 
 @font-face {
   font-family: 'norwester';
@@ -173,7 +168,7 @@ header.down a {
 
 
 header a {
-  font-family: 'Selima' !important;
+  font-family: 'norwester' !important;
   text-decoration: none;
   color: black !important;
 
@@ -181,25 +176,15 @@ header a {
 }
 
 
-.atajos {
-  transition: transform 0.2s ease-in-out !important;
 
+a:hover {
+  border-bottom: black solid 1px;
 
-
-}
-
-.atajos:hover {
-  transform: scale(1.07) !important;
-}
-
-
-.a__atajos:hover {
-  border-bottom: black solid 2px;
 
 }
 
 .down .a__atajos:hover {
-  border-bottom: white solid 2px !important;
+  border-bottom: white solid 1px !important;
 }
 
 
@@ -387,22 +372,29 @@ body {
   }
   header a{
     color: white!important;
+
+
+    
   }
 
 
+  a:hover{
+    border-bottom: white solid 1px;
 
-
-}
-
-/*positionHeader-responsive*/
-@media screen and (max-width: 767px) {
-  header.down {
+  }
+header.down {
 
     position: fixed !important;
   
 
   }
-}
+
+  }
+
+  
+
+
+
 
 
 
