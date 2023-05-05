@@ -241,7 +241,6 @@ button.nav-link:hover {
 
 .galeria .active {
   color: #FFC300 !important;
-  border-bottom: none !important;
 }
 
 .galeria {
@@ -277,7 +276,6 @@ button.nav-link:hover {
   border: black inset 10px;
   border-radius: 5%;
   padding: 2%;
-  display: inline-block;
   text-align: center;
 
 }
@@ -387,10 +385,11 @@ body {
 
 
 
+.bloque1{
 
+  
 
-
-
+}
 
 
 
@@ -449,8 +448,8 @@ header.down {
 @media only screen and (max-width: 600px) {
 
 
-  .parent{
-    grid-template-columns:1fr;
+.parent{
+    /* grid-template-columns:1fr;
     grid-template-rows: repeat(6, 1fr);
       grid-template-areas:
       "v2"
@@ -458,12 +457,16 @@ header.down {
       "v3"
       "v4"
       "v5"
-      "v6"; 
-  }
+      "v6"; */  
+      gap: 5px; 
+      align-items: center;
+
+  } 
 
   [class^="bloque"] {
-    border: #000 solid 1px;
-    margin-bottom: 10px;
+    border: #000 solid 5px;
+    font-weight: 600;
+    text-align: center;
   }
 
     
