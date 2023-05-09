@@ -36,11 +36,9 @@ body {
   justify-content: center;
   gap: 10px;
   text-align: center;
-  border: inset 5px  black;
 
 }
 .parent > * {
-  border: 1px solid black;
 }
 
 .bloque1{
@@ -402,13 +400,14 @@ body {
 /*el cambio va a estar aplicado hasta que se alcance un minimo de 767 px*/
 
 @media screen and (min-width: 767px) {
-  .video__banner{
-    height: 55vh;
-    width: 100vw!important;
-  }
+  
+
+  } 
+
+  
 
 
-}
+
 
 
 
