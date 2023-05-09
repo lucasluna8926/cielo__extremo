@@ -218,17 +218,6 @@ header a {
 }
 
 
-/* 
-a:hover {
-  border-bottom: black solid 1px;
-
-
-}
-
-.down .a__atajos:hover {
-  border-bottom: white solid 1px !important;
-} */
-
 
 
 .logo {
@@ -437,10 +426,14 @@ a:hover {
   }
   header a{
     color: white!important;
-
-
-  
     
+  }
+
+  .a__atajos{
+
+    font-size: 1.1rem!important;
+    padding: 15px!important;
+
   }
 
   header a:active{border-bottom: white 2px solid
