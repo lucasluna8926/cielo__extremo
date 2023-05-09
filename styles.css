@@ -22,18 +22,26 @@ body {
 
 
 
-
 .parent {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 0.3fr 0.3fr;
+  grid-template-rows: repeat(4, 1fr);
   grid-template-areas: 
-  "v1 v2"
-  "v3 v4"
-  "v5 v6"
+    "v1 v2"
+    "v4 v3"
+    "v5 v6"
+    "v8 v7";
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  border: inset 5px  black;
 
 }
-
+.parent > * {
+  border: 1px solid black;
+}
 
 .bloque1{
   grid-area: v1 ;
@@ -54,8 +62,12 @@ body {
   grid-area: v6 ;
 } 
 
-
-
+.bloque7{
+  grid-area: v7 ;
+} 
+.bloque8{
+  grid-area: v8 ;
+} 
 .font__carousel1 {
   font-family: 'norwester';
   font-size: 4vw;
@@ -384,15 +396,6 @@ body {
 
 
 
-
-.bloque1{
-
-  
-
-}
-
-
-
 /*backgroundcolorHeader-responsive*/
 
 @media screen and (max-width: 767px) {
@@ -422,6 +425,8 @@ header.down {
 
   }
 
+
+
   
 
 
@@ -445,28 +450,28 @@ header.down {
 /* Reglas para pantallas chicas */
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 
 
 .parent{
-    /* grid-template-columns:1fr;
-    grid-template-rows: repeat(6, 1fr);
-      grid-template-areas:
-      "v2"
-      "v1"
-      "v3"
-      "v4"
-      "v5"
-      "v6"; */  
-      gap: 5px; 
-      align-items: center;
 
+  grid-template-columns: 1fr;
+  grid-template-rows:repeat(8, 0.5fr) ;
+
+  grid-template-areas: 
+  "v1"
+  "v2"
+  "v3"
+  "v4"
+  "v5"
+  "v6"
+  "v7"
+  "v8";
   } 
+  
 
-  [class^="bloque"] {
-    border: #000 solid 5px;
-    font-weight: 600;
-    text-align: center;
+
+  [class^="bloque"] { 
   }
 
     
