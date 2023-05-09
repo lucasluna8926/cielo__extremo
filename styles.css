@@ -218,7 +218,7 @@ header a {
 }
 
 
-
+/* 
 a:hover {
   border-bottom: black solid 1px;
 
@@ -227,7 +227,7 @@ a:hover {
 
 .down .a__atajos:hover {
   border-bottom: white solid 1px !important;
-}
+} */
 
 
 
@@ -342,17 +342,19 @@ button.nav-link:hover {
 
 /*logo wp fijo*/
 .wp {
-  bottom: 2rem;
+  bottom: 1vw;
   position: fixed;
   z-index: 3;
-  right: 2rem;
+  right: 1vw;
   filter: drop-shadow(0.8rem 0.8rem 0.8rem #0008);
 }
 
-.wp:hover {
-  scale: 1.1;
-  transition: all 0.2s ease;
-}
+
+
+
+
+
+
 
 
 
@@ -400,6 +402,24 @@ body {
 /*el cambio va a estar aplicado hasta que se alcance un minimo de 767 px*/
 
 @media screen and (min-width: 767px) {
+
+
+
+a:hover {
+  border-bottom: black solid 1px;
+
+
+}
+
+.down .a__atajos:hover {
+  border-bottom: white solid 1px !important;
+}
+
+
+
+.wp:hover {
+  scale: 1.1;
+}
   
 
   } 
@@ -423,20 +443,38 @@ body {
     color: white!important;
 
 
+  
     
   }
 
-
-  a:hover{
-    border-bottom: white solid 1px;
-
+  header a:active{border-bottom: white 2px solid
   }
+
+
 header.down {
 
     position: fixed !important;
-  
 
   }
+
+  header.down a:active{
+    border-bottom: white 2px solid!important; 
+   }
+
+.wp{
+width: 12vw;
+transition: transform 0s ease-in-out;
+
+
+}
+
+.wp:active{
+  transform: scale(1.1);
+}
+
+
+
+
 
   }
 
