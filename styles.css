@@ -398,6 +398,22 @@ body {
 
 /*backgroundcolorHeader-responsive*/
 
+
+/*el cambio va a estar aplicado hasta que se alcance un minimo de 767 px*/
+
+@media screen and (min-width: 767px) {
+  .video__banner{
+    height: 55vh;
+    width: 100vw!important;
+  }
+
+
+}
+
+
+
+/*el cambio va a estar aplicado hasta que se alcance un máximo de 767 px*/
+
 @media screen and (max-width: 767px) {
   header {
     position: relative !important;
